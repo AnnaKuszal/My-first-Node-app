@@ -9,3 +9,11 @@ const maleNames = ["Adrian", "Bartek", "Tomasz", "Marek", "Grzegorz", "Rafal", "
 const femaleNames = ["Ada", "Rita", "Agnieszka", "Lidia", "Paulina", "Marta", "Nina", "Róża", "Jolanta", "Jagoda"];
 const lastNames = ["Nowak", "Kowal", "Wydro", "Stepien", "Surowiec", "Sondej", "Gruza", "Moryto", "Smolik", "Ortyl"];
 
+const randChoice = function(arr) {
+  const choiceRange = arr.length;
+ 
+  let j = Math.floor(Math.random() * choiceRange + 0);
+  const randomElement = arr[j];
+  return randomElement;
+};
+ 
