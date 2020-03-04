@@ -1,0 +1,42 @@
+[
+  {
+    "gender": "M",
+    "firstName": "Maciej",
+    "lastName": "Sondej",
+    "age": 32,
+    "phone": "950822631",
+    "mail": "maciej.sondej@gmail.com"
+  },
+  {
+    "gender": "M",
+    "firstName": "Mariusz",
+    "lastName": "Smolik",
+    "age": 55,
+    "phone": "899549854",
+    "mail": "mariusz.smolik@gmail.com"
+  },
+  {
+    "gender": "K",
+    "firstName": "Jagoda",
+    "lastName": "Stepien",
+    "age": 21,
+    "phone": "641721894",
+    "mail": "jagoda.stepien@gmail.com"
+  },
+  {
+    "gender": "K",
+    "firstName": "Lidia",
+    "lastName": "Nowak",
+    "age": 49,
+    "phone": "638759645",
+    "mail": "lidia.nowak@gmail.com"
+  },
+  {
+    "gender": "M",
+    "firstName": "Marek",
+    "lastName": "Kowal",
+    "age": 43,
+    "phone": "683747876",
+    "mail": "marek.kowal@gmail.com"
+  }
+]

@@ -53,4 +53,11 @@ for(i=0; i<5; i++) {
   people.push(person);
 }
  
+const peopleJson = JSON.stringify(people, null, '  ');
+console.log('peopleJson: ', peopleJson);
+ 
+fs.writeFile('people.json', peopleJson, (err) => {
+  if (err) throw err;
+  console.log('The file has been saved!');
+});
 
