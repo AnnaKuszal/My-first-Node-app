@@ -16,4 +16,41 @@ const randChoice = function(arr) {
   const randomElement = arr[j];
   return randomElement;
 };
+
+const people = [];
  
+for(i=0; i<5; i++) {
+     
+  const pickedGender = randChoice(genders);
+
+  let pickedName= '';
+  if(pickedGender === "K") {
+    pickedName = randChoice(femaleNames);
+  } else {
+    pickedName = randChoice(maleNames);
+  }
+ 
+  const pickedLastName = randChoice(lastNames);
+  const pickedAge = Math.floor(Math.random() * 60 + 18);
+ 
+  let pickedNumber = '';
+  for(k=0; k<3; k++) {
+    const randomPart = Math.floor(Math.random() * 499 + 500);
+    pickedNumber = pickedNumber + randomPart;
+  }
+ 
+  const pickedEmail = `${pickedName.toLowerCase()}.${pickedLastName.toLowerCase()}@gmail.com`;
+
+  const person = {
+    gender: pickedGender,
+    firstName: pickedName,
+    lastName: pickedLastName,
+    age: pickedAge,
+    phone: pickedNumber,
+    mail: pickedEmail
+  };
+
+  people.push(person);
+}
+ 
+
